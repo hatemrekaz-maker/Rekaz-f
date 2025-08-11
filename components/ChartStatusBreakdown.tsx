@@ -11,7 +11,7 @@ export default function ChartStatusBreakdown({data}:{data:{status:string,count:n
           <XAxis dataKey="status" />
           <YAxis allowDecimals={false} />
           <Tooltip />
-          <Bar dataKey="count" />
+          <Bar dataKey="count" fill="#0b61ff" />  // أزرق
         </BarChart>
       </ResponsiveContainer>
     </div>
